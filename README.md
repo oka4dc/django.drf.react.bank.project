@@ -1,4 +1,4 @@
-# Bank App
+# Bank App Backend
 ### Built Using Django Rest Framework & React With Redux
 
 #### Features:
@@ -6,6 +6,7 @@
   - Replaces The Default Django User Model 
   - Extends AbstractBaseUser Instead Of AbstractUser Because Usernames Suck.
   - Associated With Multiple Bank Accounts
+  
 - Bank Accounts
   - Users Can Open New Bank Accounts
   - Existing Accounts Are Read-Only For Standard Users
@@ -23,16 +24,7 @@
 To Run Server Locally:
 - Requires Pipenv & Python3
 ```
-  cd server
   pipenv install
   pipenv shell
   python manage.py runserver
-```
-
-To Run Client Locally:
-- Requires Recent Node.js Installation, Not Sure What The Cutoff Is.
-```
-  cd client
-  npm i
-  npm run start
 ```

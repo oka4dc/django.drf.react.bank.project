@@ -47,6 +47,7 @@ class User(AbstractBaseUser, PermissionsMixin):
   phone = CharField(max_length=13)
   firstName = CharField(max_length=50)
   lastName = CharField(max_length=50)
+  is_superuser = BooleanField(default=False)
   is_staff = BooleanField(default=False)
   is_admin = BooleanField(default=False)
   objects = UserManager()

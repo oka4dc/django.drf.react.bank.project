@@ -42,7 +42,7 @@ class UserManager(BaseUserManager):
         user.save(using=self._db)
         return user
 
-class User(AbstractBaseUser):
+class User(AbstractBaseUser, PermissionsMixin):
   email = EmailField(unique=True, max_length=100)
   phone = CharField(max_length=13)
   firstName = CharField(max_length=50)

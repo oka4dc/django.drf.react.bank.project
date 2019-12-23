@@ -5,8 +5,8 @@
 #### [Django Staging Dyno](https://staging-cohort-bank.herokuapp.com/)
 
 Not Running on prod yet
-~#### [React Prod Dyno](https://react-cohort-bank.herokuapp.com/)~
-~#### [Django Prod Dyno](https://staging-cohort-bank.herokuapp.com/)~
+#### ~[React Prod Dyno](https://react-cohort-bank.herokuapp.com/)~
+#### ~[Django Prod Dyno](https://staging-cohort-bank.herokuapp.com/)~
 
 #### Features:
 - Email/Password Based Auth

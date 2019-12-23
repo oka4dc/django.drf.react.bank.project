@@ -2,11 +2,11 @@
 ### Built Using Django Rest Framework & React With Redux
 
 #### [React Staging Dyno](https://react-cohort-bank.herokuapp.com/)
-#### [Django Staging Dyno](test)
+#### [Django Staging Dyno](https://staging-cohort-bank.herokuapp.com/)
 
-
+Not Running on prod yet
 ~#### [React Prod Dyno](https://react-cohort-bank.herokuapp.com/)~
-~#### [Django Prod Dyno](test)~
+~#### [Django Prod Dyno](https://staging-cohort-bank.herokuapp.com/)~
 
 #### Features:
 - Email/Password Based Auth

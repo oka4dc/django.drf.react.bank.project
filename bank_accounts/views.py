@@ -8,3 +8,6 @@ from .serializers import BankAccountSerializer
 class BankAccountList(ListCreateAPIView):
   queryset = BankAccount.objects.all()
   serializer_class = BankAccountSerializer
+  
+  def get_queryset(self):
+    return BankAccount.objects.all().filter(owner=self.request.user)

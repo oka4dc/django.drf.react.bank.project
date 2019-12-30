@@ -31,6 +31,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', 'staging-cohort-bank.herokuapp.com']
 
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
+}
+
 
 # Application definition
 

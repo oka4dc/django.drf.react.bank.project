@@ -16,6 +16,6 @@ class BankAccount(Model):
 transaction_types = (("DEP", "Deposit"), ("WTH", "Withdrawal"))
 
 class Transaction(Model):
-  account = ForeignKey(BankAccount, on_delete=CASCADE)
+  account = ForeignKey(BankAccount, related_name='transactions', on_delete=CASCADE)
   type = CharField(max_length=3, choices=transaction_types)
   amount = IntegerField()

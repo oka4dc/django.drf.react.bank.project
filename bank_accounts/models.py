@@ -10,6 +10,9 @@ class BankAccount(Model):
   name = CharField(max_length=255)
   type = CharField(max_length=3, choices=account_types)
 
+  def __str__(self):
+    return self.name
+
 transaction_types = (("DEP", "Deposit"), ("WTH", "Withdrawal"))
 
 class Transaction(Model):

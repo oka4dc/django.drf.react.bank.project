@@ -13,7 +13,7 @@ import {
 export const Menu = () => (
   <IonMenu contentId="main">
     <IonHeader>
-      <IonToolbar>
+      <IonToolbar color="primary">
         <IonTitle>Menu</IonTitle>
       </IonToolbar>
     </IonHeader>
